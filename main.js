@@ -1,8 +1,8 @@
 function showDiv() {
-    var rule = document.getElementById('rule');
-    if (rule.style.display === "none") {
-      rule.style.display = "block";
-    } else {
-      rule.style.display = "none";
-    }
+  document.getElementById('rule').style.display = "block";
   }
+
+
+  function hideDiv() {
+    document.getElementById('rule').style.display = "none";
+    }
